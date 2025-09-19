@@ -2,6 +2,10 @@
 A simple CHIP-8 emulator in C++ for education purposes.
 
 ## Building
+
+### macOS
+Unfortunately, for now, this only compiles on macOS due to using Homebrew, though you could easily modify `CMakeLists.txt` for other platforms. I'm just too lazy/don't care.
+
 In the root of the project, run:
 
 `cmake -Bbuild .`

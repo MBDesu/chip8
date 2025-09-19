@@ -10,6 +10,9 @@ In the root of the project, run:
 
 `make -j`
 
+## Running
+Wherever you placed the executable, run `./mbdchip8 <scale> <delay> <ROM path>`, where scale is the scale of the video and delay is the delay (in milliseconds) between CPU cycles. A value of 40 or so is good for most games.
+
 ## Tests
 
 ### Corax+
